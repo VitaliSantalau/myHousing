@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  height: auto;
+
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo_letter {
+  font-size: 2em;
+
+}
+
+.header_nav {
+  display: flex;
+}
+
+.header_nav_link {
+  margin: 0 2em 0 2em;
+}
+
