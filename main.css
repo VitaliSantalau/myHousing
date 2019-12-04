@@ -10,6 +10,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1em;
+  border-bottom: 0.5px solid black;
 }
 
 .logo {
