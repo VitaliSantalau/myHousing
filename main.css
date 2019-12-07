@@ -9,8 +9,11 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
   padding: 1em;
-  border-bottom: 0.5px solid black;
+  margin-bottom: 4em;
+  
+  border-bottom: 0.2px solid rgb(75, 74, 74);
 }
 
 .logo {
@@ -28,5 +31,63 @@ header {
 
 .header_nav_link {
   margin: 0 2em 0 2em;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+
+.intro {
+  flex-grow: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 1em;
+}
+
+.intro_title>p {
+
+  font-size: 2em;
+  margin: 0.5em 1em 1em 4em;
+}
+
+.intro_buttons {
+  
+}
+
+.intro_buttons>button {
+  font-size: 2em;
+  height: 2.5em;
+  margin: 1em;
+}
+
+.intro_description {
+  align-self: center;
+
+  margin-top: 4em;
+}
+
+.intro_description>p {
+  font-size: 1.5em;
+  margin: 1.2em;
+}
+
+.intro_description>p>a {
+  font-style: italic;
+}
+
+
+
+.location {
+  flex-grow: 1;
+}
+section {
+  border: 1px solid red;
 }
 
