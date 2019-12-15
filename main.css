@@ -7,10 +7,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
 
-  background-image: url('texture.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: rgba(211, 200, 200, 0.959);
   
 }
 
@@ -106,6 +103,20 @@ main {
   align-items: center;
 
   border: 0.5px solid  rgb(75, 74, 74);
+}
+
+.image_container {
+  
+}
+
+.image>img {
+  width: 100%;
+  height: auto;
+
+  position: relative;
+  top: 0;
+  left: 0;
+
 }
 
 footer {
