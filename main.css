@@ -12,7 +12,6 @@ body {
   
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -26,12 +25,21 @@ header {
 
 .logo {
   display: flex;
+  flex-direction: column;
 }
 
-.logo_letter {
+.logo_name_soname {
+  display: flex;
+}
+
+.logo_name_soname_letter {
   font-size: 2em;
   color: orangered;
+}
 
+.logo_specialisation {
+  display: flex;
+  justify-content: space-around;
 }
 
 .header_nav {
@@ -43,7 +51,7 @@ header {
 }
 
 main {
-  width: 95%;
+  width: 100%;
   flex-grow: 2;
 
   display: flex;
@@ -51,73 +59,31 @@ main {
   flex-wrap: wrap;
 }
 
-.intro {
-  flex-grow: 2;
-
+.conteinerForButtons {
+  width: 70%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  padding: 1em; 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.intro_title>p {
+.button {
   font-size: 2em;
-  margin: 0.5em 1em 1em 4em;
-}
-
-.intro_buttons {
-  display: flex;
-  flex-direction: column;
-}
-
-.intro_buttons>button {
-  font-size: 2em;
-  height: 2.5em;
+  height: 10em;
+  width: 16.2em;
   margin: 1em;
   color: inherit;
   background-color: transparent;
-}
-
-.intro_description {
-  align-self: center;
-
-  margin-top: 1em;
-}
-
-.intro_description>p {
-  font-size: 1.5em;
-  margin: 1.2em;
-}
-
-.intro_description>p>a {
-  font-style: italic;
-}
-
-.chat {
-  flex-grow: 1;
-  height: 90%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-
-  border: 0.5px solid  rgb(75, 74, 74);
-}
-
-.image_container {
   
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.image>img {
-  width: 100%;
-  height: auto;
-
-  position: relative;
-  top: 0;
-  left: 0;
-
+.work {
+  background: url(work.webp) 100% 100% no-repeat;
+  background-size: cover;
+  
 }
 
 footer {
