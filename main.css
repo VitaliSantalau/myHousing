@@ -7,7 +7,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
 
-  background-color: rgba(211, 200, 200, 0.959);
+  background-image: url('texture.png');
+  background-repeat: repeat;
   
 }
 
