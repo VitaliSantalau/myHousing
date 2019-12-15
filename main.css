@@ -81,8 +81,26 @@ main {
 }
 
 .work {
-  background: url(work.webp) 100% 100% no-repeat;
+  background: url(work.png) 100% 100% no-repeat;
   background-size: cover;
+}
+
+.meetup {
+  background: url(meetup.gif) 100% 100% no-repeat;
+  background-size: cover;
+}
+
+.talk {
+  font-weight: bold;
+  background: url(talk.jpeg) 100% 100% no-repeat;
+  background-size: cover;
+}
+
+.hire {
+  font-weight: bold;
+  background: url(hire.jpg);
+  background-size: cover;
+  background-color: rgb(9, 28, 44);
   
 }
 
