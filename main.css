@@ -1,15 +1,17 @@
-html, body {
+html {
   height: 100%;
 }
 
 body {
+  height: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 
+  color: #2f2e41;
   background-image: url('texture.png');
   background-repeat: repeat;
-  
 }
 
 header {
@@ -20,7 +22,7 @@ header {
   padding: 1em;
   margin: 1em;
   
-  border-bottom: 0.2px solid rgb(75, 74, 74);
+  border-bottom: 0.2px solid #2f2e41;
 }
 
 .logo {
@@ -50,9 +52,13 @@ header {
   margin: 0 2em 0 2em;
 }
 
+.header_nav_link>a {
+  color: #2f2e41;
+}
+
 main {
   width: 100%;
-  flex-grow: 2;
+  flex: 2 2 auto;
 
   display: flex;
   justify-content: space-around;
@@ -69,18 +75,15 @@ main {
 
 .button {
   font-size: 1.8em;
-  height: 8em;
+  height: 10em;
   width: 10em;
+  min-width: 40%;
   margin: 1em;
-  padding: 1em;
-  color: inherit;
-  background-color: transparent;
   
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .button>img {
@@ -99,13 +102,14 @@ main {
 
 footer {
   font-size: 1.2em;
+  color: #f2f2f2;
+  
   display: flex;
-
   justify-content: flex-end;
   flex-wrap: wrap;
 
   padding: 1em;
-  margin: 1em;
   
-  border-top: 0.2px solid rgb(75, 74, 74);
+  background-color: #2f2e41;
+  border-top: 0.2px solid #2f2e41;
 }
