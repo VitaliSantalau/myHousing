@@ -34,7 +34,7 @@ header {
 
 .logo_name_soname_letter {
   font-size: 2em;
-  color: orangered;
+  color: #ff6347;
 }
 
 .logo_specialisation {
@@ -60,55 +60,41 @@ main {
 }
 
 .conteinerForButtons {
-  width: 70%;
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .button {
-  font-size: 2em;
-  height: 10em;
-  width: 16.2em;
+  font-size: 1.8em;
+  height: 8em;
+  width: 10em;
   margin: 1em;
+  padding: 1em;
   color: inherit;
   background-color: transparent;
   
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   
-  background-position: center;
 }
 
-.work {
-  background: url(work.png) 100% 100% no-repeat;
-  background-size: cover;
-  position: center;
+.button>img {
+  height: 100%;
+  width: auto;
 }
 
-.meetup {
-  background: url(meetup.png) 100% 100% no-repeat;
-  background-size: cover;
-  background-position: center;
-  
+.button>p {
+  font-size: 0.8em;
+  align-self: flex-end;
 }
 
-.talk {
-  font-weight: bold;
-  background: url(talk.jpeg) 100% 100% no-repeat;
-  background-size: cover;
-  position: center;
-}
-
-.hire {
-  font-weight: bold;
-  background: url(hire.jpg);
-  background-size: cover;
-  position: center;
-  background-position: center;
-  
+.button>p>span {
+  color: #ff6347;
 }
 
 footer {
