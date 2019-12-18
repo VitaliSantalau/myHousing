@@ -71,7 +71,7 @@ main {
   flex-wrap: wrap;
 }
 
-.conteinerForButtons {
+.container_images {
   width: 80%;
   display: flex;
   justify-content: space-around;
@@ -79,32 +79,72 @@ main {
   flex-wrap: wrap;
 }
 
-.button {
-  font-size: 1.8em;
+.box_image {
+  font-size: 2em;
   height: 10em;
   width: 16.2em;
   min-width: 40%;
-
   margin: 1em;
   
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
-.button>img {
+.box_image>img {
   height: 100%;
   width: auto;
 }
 
-.button>p {
+.box_image>a {
   font-size: 0.8em;
+  color: #2f2e41;
+
   align-self: flex-end;
 }
 
-.button>p>span {
+.box_image>a>span {
+  color: #ff6347;
+}
+
+.box_image>a:hover {
+  color: #ff6347;
+}
+
+.box_image>a:hover>span {
+  
+  display: none;
+}
+
+aside {
+  font-size: 1.3em;
+
+  position: fixed;
+  top:30%;
+  width: 3%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 1em 0.5em;
+  opacity: 0.2;
+  background-color: #2f2e41;
+  border-radius: 0 25px;
+}
+
+aside:hover {
+  opacity: 0.7;
+}
+
+aside>a {
+  color: #f2f2f2;
+  margin-bottom: 2em;
+}
+
+aside>a:hover {
   color: #ff6347;
 }
 
