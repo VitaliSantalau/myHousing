@@ -82,8 +82,8 @@ main {
 .box_image {
   font-size: 2em;
   height: 10em;
-  width: 16.2em;
-  min-width: 40%;
+  width: 10em;
+  min-width: 35%;
   margin: 1em;
   
   display: flex;
@@ -121,7 +121,7 @@ aside {
   font-size: 1.3em;
 
   position: fixed;
-  top:30%;
+  top:25%;
   width: 3%;
 
   display: flex;
@@ -136,16 +136,21 @@ aside {
 }
 
 aside:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 aside>a {
-  color: #f2f2f2;
+  width: 80%;
   margin-bottom: 2em;
 }
 
-aside>a:hover {
-  color: #ff6347;
+aside>a:hover>img {
+  opacity: 1;
+}
+
+aside>a>img {
+  width: 100%;
+  opacity: 0.5;
 }
 
 footer {
